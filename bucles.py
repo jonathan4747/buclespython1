@@ -31,7 +31,7 @@ for i in range(2018,-1,-4):
 # imprime los valores mltiplo de mult
 alto = 9
 bajo = 2
-mult = 3
+mult = 4
 for i in range(bajo,(alto+1)):
-    if i%3 == 0:
+    if i%mult == 0:
         print(i)
